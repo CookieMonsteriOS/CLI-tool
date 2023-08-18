@@ -1,8 +1,4 @@
-{
-    "name": "cli-tool",
-    "bin":{
-      "practice": "./index.js"  
-    },
+{    
     "$schema": "https://json.schemastore.org/tsconfig",
     "display": "Node 16",
     "_version": "16.1.0",
@@ -20,5 +16,5 @@
     },
     "include": [
       "src/**/*"
-    ]
+    , "index.js"]
   }
