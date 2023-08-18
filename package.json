@@ -1,5 +1,8 @@
 {
   "name": "cli-tool",
+  "bin":{
+    "practice": "./index.js" 
+  },
   "version": "0.0.1",
   "description": "cli tool",
   "main": "index.js",
