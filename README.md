@@ -15,4 +15,4 @@ Built with Typescript, Commander and Node.
 
 Terminal outputs as follows with practice --help
 
-![Screenshot 2023-08-18 at 13 39 11](https://github.com/CookieMonsteriOS/CLI-tool/assets/6276422/251f4102-db00-46d8-8d84-1578776cc621)
+![Screenshot 2023-08-18 at 13 39 11](https://github.com/CookieMonsteriOS/CLI-tool/assets/6276422/0a410fd3-e9b2-4285-b053-bbcca5b9ddc1)
