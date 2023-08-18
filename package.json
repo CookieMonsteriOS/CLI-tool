@@ -1,18 +1,23 @@
 {
   "name": "cli-tool",
-  "bin":{
-    "practice": "./index.js" 
+  "bin": {
+    "practice": "./dist/index.js"
   },
   "version": "0.0.1",
   "description": "cli tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link-cli": "yarn --global unlink cli-tool && chmod +x ./dist/index.js && yarn --global link",
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
   }
 }
